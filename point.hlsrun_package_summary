@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "C:/pro_10_02_2026_s\\vitis\\hls\\point\\point\\point\\point.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "02/10/26 14:53:48",
+ "timestampMillis": "1770715428596",
+ "buildStep": {
+  "cmdId": "acbe2653-a159-4307-8fdf-a7735aa98e7a",
+  "name": "vitis-run",
+  "logFile": "C:/pro_10_02_2026_s\\vitis\\hls\\point\\point\\point\\logs\\point.steps.log",
+  "commandLine": "C:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config C:\\pro_10_02_2026_s\\vitis\\hls\\point\\point\\hls_config.cfg --work_dir point ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "C:\\pro_10_02_2026_s\\vitis\\hls\\point\\point\\hls_config.cfg",
+   "--work_dir",
+   "point"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\pro_10_02_2026_s\\vitis\\hls\\point\\point"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/10/26 14:53:48",
+ "timestampMillis": "1770715428597",
+ "status": {
+  "cmdId": "acbe2653-a159-4307-8fdf-a7735aa98e7a",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "02/10/26 14:53:51",
+ "timestampMillis": "1770715431784",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "pointwise_conv",
+     "file": "C:/pro_10_02_2026_s\\vitis\\hls\\point\\point\\ip_point.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/pro_10_02_2026_s\\vitis\\hls\\point\\point\\pointwise.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "02/10/26 14:53:51",
+ "timestampMillis": "1770715431786",
+ "buildStep": {
+  "cmdId": "7d3562ed-4abb-4663-8cf5-08facca1e682",
+  "name": "",
+  "logFile": "C:/pro_10_02_2026_s\\vitis\\hls\\point\\point\\point\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\pro_10_02_2026_s\\vitis\\hls\\point\\point"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/10/26 14:53:51",
+ "timestampMillis": "1770715431786",
+ "status": {
+  "cmdId": "7d3562ed-4abb-4663-8cf5-08facca1e682",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/10/26 14:54:04",
+ "timestampMillis": "1770715444577",
+ "status": {
+  "cmdId": "7d3562ed-4abb-4663-8cf5-08facca1e682",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/10/26 14:54:04",
+ "timestampMillis": "1770715444650",
+ "status": {
+  "cmdId": "acbe2653-a159-4307-8fdf-a7735aa98e7a",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/10/26 14:54:04",
+ "timestampMillis": "1770715444651",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/10/26 14:54:04",
+ "timestampMillis": "1770715444651",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
