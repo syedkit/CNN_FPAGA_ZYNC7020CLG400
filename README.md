@@ -236,8 +236,8 @@ This project is intended for academic and research purposes only.
 
 For queries or collaboration:
 
-* Email: Add your email
-* LinkedIn: Add your profile
+* Email:syed7243016@gmail.com
+* LinkedIn:www.linkedin.com/in/syedarshadrsg
 
 ---
 
