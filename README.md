@@ -241,5 +241,10 @@ For queries or collaboration:
 * LinkedIn:www.linkedin.com/in/syedarshadrsg
 
 ---
+## Attribution
 
+If you use this project, please credit:
+
+Author: S.I.SYED ARSHAD  
+Source: https://github.com/syedkit/CNN_FPGA_ZYNC7020CLG400.git
 If you find this project useful, consider giving it a star.
